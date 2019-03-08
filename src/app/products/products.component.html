@@ -1,0 +1,13 @@
+<h2> {{introduction}}</h2>
+<div>
+  <ul class="products">
+    <li *ngFor="let fruit of fruits">
+      <div class="badge">
+          <span>{{fruit.id}}</span>
+          <span>{{fruit.name}}</span>
+          <span>{{fruit.prize}}</span>
+      </div>
+    </li>
+  </ul>
+</div>
+
