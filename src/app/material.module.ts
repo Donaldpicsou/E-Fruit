@@ -49,6 +49,7 @@ import {CdkStepperModule} from '@angular/cdk/stepper';
 import {CdkTableModule} from '@angular/cdk/table';
 import {CdkTreeModule} from '@angular/cdk/tree';
 import {DragDropModule} from '@angular/cdk/drag-drop';
+import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 
 /**
  * NgModule that includes all Material modules.
@@ -67,6 +68,7 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
         CdkTableModule,
         CdkTreeModule,
         DragDropModule,
+        NoopAnimationsModule, 
         // Material
         MatAutocompleteModule,
         MatBadgeModule,
@@ -104,6 +106,7 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
         MatToolbarModule,
         MatTooltipModule,
         MatTreeModule,
+        
     ]
 })
 export class MaterialModule {}

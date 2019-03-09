@@ -6,6 +6,7 @@ import { ProductsComponent } from './products/products.component';
 import { ProductsDetailsComponent } from './products-details/products-details.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
+import 'hammerjs';
 @NgModule({
   declarations: [
     AppComponent,
