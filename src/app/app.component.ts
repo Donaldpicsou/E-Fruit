@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Tchakala VIP & shreck vont danser le zouk';
+  title = 'Annuaire Entreprise';
 }

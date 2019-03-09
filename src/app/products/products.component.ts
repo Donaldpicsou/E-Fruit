@@ -10,7 +10,6 @@ import { _CLIENTS_} from '../model/list-fruits';
 export class ProductsComponent implements OnInit {
 
   Clients = _CLIENTS_;
-  title = "Annuaire entreprise"
 
   constructor() { }
 
