@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductsDetailsComponent } from './products-details/products-details.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import {MatListModule} from '@angular/material/list';
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +14,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule, 
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

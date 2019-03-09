@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Fruits} from '../model/fruits';
-import {_FRUITS_} from '../model/list-fruits';
+import {Client} from '../model/fruits';
+import { _CLIENTS_} from '../model/list-fruits';
 
 @Component({
   selector: 'app-products',
@@ -9,8 +9,8 @@ import {_FRUITS_} from '../model/list-fruits';
 })
 export class ProductsComponent implements OnInit {
 
-  fruits = _FRUITS_;
-  introduction = "Liste des Fruits"
+  Clients = _CLIENTS_;
+  introduction = "Annuaire Entreprise"
 
   constructor() { }
 

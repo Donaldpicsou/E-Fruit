@@ -1,6 +1,9 @@
-export class Fruits{
+export class Client{
     id: number;
     name: string; 
-    prize: number;
-    picture: string;
+    picture : string;
+    description: string;
+    domain : string;
+    phone: number;
+    siegesocial: string;
 }

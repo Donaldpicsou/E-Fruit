@@ -1,13 +1,26 @@
 <h2> {{introduction}}</h2>
-<div>
-  <ul class="products">
+<!-- <div id="parent">
+<div class="block center" *ngFor="let fruit of fruits">
+  <span class="badge">{{fruit.id}}</span> {{fruit.name}}
+  <span class="badge">{{fruit.prize}}</span>
+</div>
+   <ul class="products" >
     <li *ngFor="let fruit of fruits">
-      <div class="badge">
-          <span>{{fruit.id}}</span>
-          <span>{{fruit.name}}</span>
-          <span>{{fruit.prize}}</span>
-      </div>
+          <span class="badge">{{fruit.id}}</span> {{fruit.name}}
     </li>
   </ul>
-</div>
+
+</div> -->
+<mat-list>
+  <!-- <h3 mat-subheader>Clients</h3> -->
+  <mat-list-item *ngFor="let client of Clients">
+    Juste pour voir le comportement...
+    <img matListAvatar src="assets/img1.JPG" alt="description">
+    <h3 mat-line>{{client.name}} </h3>
+    <p mat-line>
+      <span> {{client.description}}</span>
+      <span class="demo-2"> -- {{fruit.prize}}</span>
+    </p>
+  </mat-list-item>
+</mat-list>
 
